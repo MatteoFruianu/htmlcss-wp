@@ -1,0 +1,181 @@
+/* General Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../img/natural-pattern.png');
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2 {
+  padding: 2px;
+  color: #5c6067;
+}
+
+#container {
+  width: 1000px;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+/* HEADER */
+/* header top */
+.header-top img {
+  width: 40%;
+}
+
+.header-top h2 {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-top {
+  padding: 50px 5px;
+  background-image: url('../img/natural-header.jpg');
+  background-size: cover;
+  text-align: center;
+  border: 5px solid white;
+}
+
+/* header bottom */
+nav {
+  background: #7d8188;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.header-bottom li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.header-bottom li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.header-bottom li:hover {
+  background-color: #a0a8b7;
+}
+
+/* MAIN */
+main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+main {
+  margin-top: 10px;
+}
+
+.col {
+  float: left;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* col left */
+.col-left {
+  background: white;
+  width: 20%;
+}
+
+.org-header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.org-header {
+  margin-bottom: 10px;
+}
+
+.col-left-icon {
+  float: left;
+  color: orange;
+  width: 30%;
+  font-size: 30px;
+}
+
+.col-left-title {
+  float: left;
+  width: 70%;
+}
+
+.col-left li {
+  margin-bottom: 10px;
+}
+
+/* col-center */
+.col-center {
+  background: white;
+  width: 50%;
+  margin: 0 5%;
+}
+
+.col-center h1 {
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-shadow: -4px -4px 6px rgba(151, 150, 150, 1);
+}
+
+/* col-right */
+.col-right {
+  width: 20%;
+  padding-top: 0;
+}
+
+.col-right-section {
+  background: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.col-right-section h2 {
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+  background: white;
+  padding: 3px;
+  text-align: center;
+  color: #a0a8b7;
+  border-radius: 5px;
+}
+
+.social::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.social li {
+  float: left;
+  width: 33%;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.social li a i {
+  color: #a0a8b7;
+}
